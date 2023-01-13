@@ -1,5 +1,6 @@
 body{
     margin: 1.5rem;
+    font-family: 'Inter', sans-serif;
 }
 
 header{
@@ -26,4 +27,85 @@ nav{
     height: 40vh;
     background-size: cover;
     margin-top: -6em;
+}
+
+.hero-content {
+
+
+    h1{
+        font-size: 2.7em;
+        font-weight: 900;
+    }
+
+    p{
+        color: hsl(233, 5%, 70%);
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+
+    a.read-more{
+        color: white;
+        display: block;
+        background: hsl(5, 85%, 63%);
+        width: 10em;
+        text-align: center;
+        padding: 1em;
+        text-decoration: none;
+        cursor: pointer;
+        margin-bottom: 5em;
+        text-transform: uppercase;
+        font-size: 0.7em;
+        letter-spacing: 0.15em;
+    }
+}
+
+.sidebar{
+    background: hsl(240, 100%, 5%);
+    padding: 0.5em 1em;
+    margin-bottom: 4em;
+
+    h2{
+        color: hsl(35, 77%, 62%);
+        margin: 1.5em 0 2em 0;
+    }
+
+    h3{
+        color: white;
+        margin-bottom: 1.5em;
+    }
+
+    p{
+        margin-bottom: 2em;
+    }
+
+    hr{
+        border: 0.5px solid hsl(233, 8%, 79%);
+        margin-bottom: 2em;
+    }
+}
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4em;
+
+    .feature-content{
+        width: 55%;
+    }
+
+    img{
+        width: 40%;
+        height: 10em;
+    }
+
+    h2{
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    h3{
+        font-size: 2rem;
+        margin: 0 0 0.5em 0;
+        color: hsl(30, 3%, 75%);
+    }
 }

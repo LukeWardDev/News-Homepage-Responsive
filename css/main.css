@@ -1,5 +1,6 @@
 body {
   margin: 1.5rem;
+  font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -30,5 +31,86 @@ nav {
   height: 40vh;
   background-size: cover;
   margin-top: -6em;
+}
+
+.hero-content h1 {
+  font-size: 2.7em;
+  font-weight: 900;
+}
+
+.hero-content p {
+  color: #afb0b6;
+  margin-top: -1em;
+  margin-bottom: 1em;
+}
+
+.hero-content a.read-more {
+  color: white;
+  display: block;
+  background: #f15e50;
+  width: 10em;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 5em;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 0.15em;
+}
+
+.sidebar {
+  background: #00001a;
+  padding: 0.5em 1em;
+  margin-bottom: 4em;
+}
+
+.sidebar h2 {
+  color: #e9ab53;
+  margin: 1.5em 0 2em 0;
+}
+
+.sidebar h3 {
+  color: white;
+  margin-bottom: 1.5em;
+}
+
+.sidebar p {
+  margin-bottom: 2em;
+}
+
+.sidebar hr {
+  border: 0.5px solid #c5c6ce;
+  margin-bottom: 2em;
+}
+
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4em;
+}
+
+.feature .feature-content {
+  width: 55%;
+}
+
+.feature img {
+  width: 40%;
+  height: 10em;
+}
+
+.feature h2 {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.feature h3 {
+  font-size: 2rem;
+  margin: 0 0 0.5em 0;
+  color: #c1bfbd;
 }
 /*# sourceMappingURL=main.css.map */
