@@ -11,5 +11,5 @@ I first coded the mobile version of the website and then moved onto the desktop 
 
 I found this to be quite a challenging project as the layout is more complicated than things I have made in the past.
 
-You can view the live site [here](https://lukewarddev.github.io/News-Homepage/)
+You can view the live site [here](https://lukewarddev.github.io/News-Homepage-Responsive/)
 
